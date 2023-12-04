@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args){
+    Scanner sc=new Scanner(System.in);
+    int n=sc.nextInt(),n2=1,n3=0;
+     if((n==0) || (n==1))
+         System.out.println("not a prime number");
+     for(int c=2;c<=n/2;c++){
+     if(n%c==0){
+        System.out.println("not a prime");
+         break;
+     }
+     
+     else {
+        System.out.println("prime number");}
+        c++;
+       
+     }
+     }}
+     
